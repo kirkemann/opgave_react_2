@@ -36,7 +36,7 @@ class Starwars extends Component {
         )
         return (
             <div className="container">
-                <h4 className="center">Starwars Hero´s</h4>
+                <h2 className="center">Starwars Hero´s</h2>
                 {peopleList}
             </div>
         )
