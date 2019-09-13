@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import Starwars from './Starwars'
 
 class App extends Component {
-  render() {
+  render() {  
     return (
-      <div>
-        
+      <div className="App">
+        <Starwars />
       </div>
     )
   }
